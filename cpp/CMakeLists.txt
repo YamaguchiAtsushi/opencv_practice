@@ -28,5 +28,20 @@ target_link_libraries(image5 ${OpenCV_LIBRARIES})
 add_executable(image6 src/image/image6.cpp)   
 target_link_libraries(image6 ${OpenCV_LIBRARIES})
 
-add_executable(movie1 src/movie/movie1.cpp)   
-target_link_libraries(movie1 ${OpenCV_LIBRARIES})
+add_executable(camera src/camera/camera.cpp)   
+target_link_libraries(camera ${OpenCV_LIBRARIES})
+
+add_executable(filter1 src/filter/filter1.cpp)   
+target_link_libraries(filter1 ${OpenCV_LIBRARIES})
+
+add_executable(filter2 src/filter/filter2.cpp)   
+target_link_libraries(filter2 ${OpenCV_LIBRARIES})
+
+add_executable(filter3 src/filter/filter3.cpp)   
+target_link_libraries(filter3 ${OpenCV_LIBRARIES})
+
+add_executable(filter4 src/filter/filter4.cpp)   
+target_link_libraries(filter4 ${OpenCV_LIBRARIES})
+
+add_executable(filter5 src/filter/filter5.cpp)   
+target_link_libraries(filter5 ${OpenCV_LIBRARIES})

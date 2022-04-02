@@ -111,6 +111,58 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named filter4
+
+# Build rule for target.
+filter4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 filter4
+.PHONY : filter4
+
+# fast build rule for target.
+filter4/fast:
+	$(MAKE) -f CMakeFiles/filter4.dir/build.make CMakeFiles/filter4.dir/build
+.PHONY : filter4/fast
+
+#=============================================================================
+# Target rules for targets named filter3
+
+# Build rule for target.
+filter3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 filter3
+.PHONY : filter3
+
+# fast build rule for target.
+filter3/fast:
+	$(MAKE) -f CMakeFiles/filter3.dir/build.make CMakeFiles/filter3.dir/build
+.PHONY : filter3/fast
+
+#=============================================================================
+# Target rules for targets named filter2
+
+# Build rule for target.
+filter2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 filter2
+.PHONY : filter2
+
+# fast build rule for target.
+filter2/fast:
+	$(MAKE) -f CMakeFiles/filter2.dir/build.make CMakeFiles/filter2.dir/build
+.PHONY : filter2/fast
+
+#=============================================================================
+# Target rules for targets named filter1
+
+# Build rule for target.
+filter1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 filter1
+.PHONY : filter1
+
+# fast build rule for target.
+filter1/fast:
+	$(MAKE) -f CMakeFiles/filter1.dir/build.make CMakeFiles/filter1.dir/build
+.PHONY : filter1/fast
+
+#=============================================================================
 # Target rules for targets named image2
 
 # Build rule for target.
@@ -150,6 +202,19 @@ image1/fast:
 .PHONY : image1/fast
 
 #=============================================================================
+# Target rules for targets named filter5
+
+# Build rule for target.
+filter5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 filter5
+.PHONY : filter5
+
+# fast build rule for target.
+filter5/fast:
+	$(MAKE) -f CMakeFiles/filter5.dir/build.make CMakeFiles/filter5.dir/build
+.PHONY : filter5/fast
+
+#=============================================================================
 # Target rules for targets named image4
 
 # Build rule for target.
@@ -161,6 +226,19 @@ image4: cmake_check_build_system
 image4/fast:
 	$(MAKE) -f CMakeFiles/image4.dir/build.make CMakeFiles/image4.dir/build
 .PHONY : image4/fast
+
+#=============================================================================
+# Target rules for targets named camera
+
+# Build rule for target.
+camera: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 camera
+.PHONY : camera
+
+# fast build rule for target.
+camera/fast:
+	$(MAKE) -f CMakeFiles/camera.dir/build.make CMakeFiles/camera.dir/build
+.PHONY : camera/fast
 
 #=============================================================================
 # Target rules for targets named image5
@@ -187,6 +265,168 @@ image6: cmake_check_build_system
 image6/fast:
 	$(MAKE) -f CMakeFiles/image6.dir/build.make CMakeFiles/image6.dir/build
 .PHONY : image6/fast
+
+src/camera/camera.o: src/camera/camera.cpp.o
+
+.PHONY : src/camera/camera.o
+
+# target to build an object file
+src/camera/camera.cpp.o:
+	$(MAKE) -f CMakeFiles/camera.dir/build.make CMakeFiles/camera.dir/src/camera/camera.cpp.o
+.PHONY : src/camera/camera.cpp.o
+
+src/camera/camera.i: src/camera/camera.cpp.i
+
+.PHONY : src/camera/camera.i
+
+# target to preprocess a source file
+src/camera/camera.cpp.i:
+	$(MAKE) -f CMakeFiles/camera.dir/build.make CMakeFiles/camera.dir/src/camera/camera.cpp.i
+.PHONY : src/camera/camera.cpp.i
+
+src/camera/camera.s: src/camera/camera.cpp.s
+
+.PHONY : src/camera/camera.s
+
+# target to generate assembly for a file
+src/camera/camera.cpp.s:
+	$(MAKE) -f CMakeFiles/camera.dir/build.make CMakeFiles/camera.dir/src/camera/camera.cpp.s
+.PHONY : src/camera/camera.cpp.s
+
+src/filter/filter1.o: src/filter/filter1.cpp.o
+
+.PHONY : src/filter/filter1.o
+
+# target to build an object file
+src/filter/filter1.cpp.o:
+	$(MAKE) -f CMakeFiles/filter1.dir/build.make CMakeFiles/filter1.dir/src/filter/filter1.cpp.o
+.PHONY : src/filter/filter1.cpp.o
+
+src/filter/filter1.i: src/filter/filter1.cpp.i
+
+.PHONY : src/filter/filter1.i
+
+# target to preprocess a source file
+src/filter/filter1.cpp.i:
+	$(MAKE) -f CMakeFiles/filter1.dir/build.make CMakeFiles/filter1.dir/src/filter/filter1.cpp.i
+.PHONY : src/filter/filter1.cpp.i
+
+src/filter/filter1.s: src/filter/filter1.cpp.s
+
+.PHONY : src/filter/filter1.s
+
+# target to generate assembly for a file
+src/filter/filter1.cpp.s:
+	$(MAKE) -f CMakeFiles/filter1.dir/build.make CMakeFiles/filter1.dir/src/filter/filter1.cpp.s
+.PHONY : src/filter/filter1.cpp.s
+
+src/filter/filter2.o: src/filter/filter2.cpp.o
+
+.PHONY : src/filter/filter2.o
+
+# target to build an object file
+src/filter/filter2.cpp.o:
+	$(MAKE) -f CMakeFiles/filter2.dir/build.make CMakeFiles/filter2.dir/src/filter/filter2.cpp.o
+.PHONY : src/filter/filter2.cpp.o
+
+src/filter/filter2.i: src/filter/filter2.cpp.i
+
+.PHONY : src/filter/filter2.i
+
+# target to preprocess a source file
+src/filter/filter2.cpp.i:
+	$(MAKE) -f CMakeFiles/filter2.dir/build.make CMakeFiles/filter2.dir/src/filter/filter2.cpp.i
+.PHONY : src/filter/filter2.cpp.i
+
+src/filter/filter2.s: src/filter/filter2.cpp.s
+
+.PHONY : src/filter/filter2.s
+
+# target to generate assembly for a file
+src/filter/filter2.cpp.s:
+	$(MAKE) -f CMakeFiles/filter2.dir/build.make CMakeFiles/filter2.dir/src/filter/filter2.cpp.s
+.PHONY : src/filter/filter2.cpp.s
+
+src/filter/filter3.o: src/filter/filter3.cpp.o
+
+.PHONY : src/filter/filter3.o
+
+# target to build an object file
+src/filter/filter3.cpp.o:
+	$(MAKE) -f CMakeFiles/filter3.dir/build.make CMakeFiles/filter3.dir/src/filter/filter3.cpp.o
+.PHONY : src/filter/filter3.cpp.o
+
+src/filter/filter3.i: src/filter/filter3.cpp.i
+
+.PHONY : src/filter/filter3.i
+
+# target to preprocess a source file
+src/filter/filter3.cpp.i:
+	$(MAKE) -f CMakeFiles/filter3.dir/build.make CMakeFiles/filter3.dir/src/filter/filter3.cpp.i
+.PHONY : src/filter/filter3.cpp.i
+
+src/filter/filter3.s: src/filter/filter3.cpp.s
+
+.PHONY : src/filter/filter3.s
+
+# target to generate assembly for a file
+src/filter/filter3.cpp.s:
+	$(MAKE) -f CMakeFiles/filter3.dir/build.make CMakeFiles/filter3.dir/src/filter/filter3.cpp.s
+.PHONY : src/filter/filter3.cpp.s
+
+src/filter/filter4.o: src/filter/filter4.cpp.o
+
+.PHONY : src/filter/filter4.o
+
+# target to build an object file
+src/filter/filter4.cpp.o:
+	$(MAKE) -f CMakeFiles/filter4.dir/build.make CMakeFiles/filter4.dir/src/filter/filter4.cpp.o
+.PHONY : src/filter/filter4.cpp.o
+
+src/filter/filter4.i: src/filter/filter4.cpp.i
+
+.PHONY : src/filter/filter4.i
+
+# target to preprocess a source file
+src/filter/filter4.cpp.i:
+	$(MAKE) -f CMakeFiles/filter4.dir/build.make CMakeFiles/filter4.dir/src/filter/filter4.cpp.i
+.PHONY : src/filter/filter4.cpp.i
+
+src/filter/filter4.s: src/filter/filter4.cpp.s
+
+.PHONY : src/filter/filter4.s
+
+# target to generate assembly for a file
+src/filter/filter4.cpp.s:
+	$(MAKE) -f CMakeFiles/filter4.dir/build.make CMakeFiles/filter4.dir/src/filter/filter4.cpp.s
+.PHONY : src/filter/filter4.cpp.s
+
+src/filter/filter5.o: src/filter/filter5.cpp.o
+
+.PHONY : src/filter/filter5.o
+
+# target to build an object file
+src/filter/filter5.cpp.o:
+	$(MAKE) -f CMakeFiles/filter5.dir/build.make CMakeFiles/filter5.dir/src/filter/filter5.cpp.o
+.PHONY : src/filter/filter5.cpp.o
+
+src/filter/filter5.i: src/filter/filter5.cpp.i
+
+.PHONY : src/filter/filter5.i
+
+# target to preprocess a source file
+src/filter/filter5.cpp.i:
+	$(MAKE) -f CMakeFiles/filter5.dir/build.make CMakeFiles/filter5.dir/src/filter/filter5.cpp.i
+.PHONY : src/filter/filter5.cpp.i
+
+src/filter/filter5.s: src/filter/filter5.cpp.s
+
+.PHONY : src/filter/filter5.s
+
+# target to generate assembly for a file
+src/filter/filter5.cpp.s:
+	$(MAKE) -f CMakeFiles/filter5.dir/build.make CMakeFiles/filter5.dir/src/filter/filter5.cpp.s
+.PHONY : src/filter/filter5.cpp.s
 
 src/image/image1.o: src/image/image1.cpp.o
 
@@ -356,14 +596,38 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... filter4"
 	@echo "... edit_cache"
+	@echo "... filter3"
+	@echo "... filter2"
+	@echo "... filter1"
 	@echo "... image2"
 	@echo "... rebuild_cache"
 	@echo "... image3"
 	@echo "... image1"
+	@echo "... filter5"
 	@echo "... image4"
+	@echo "... camera"
 	@echo "... image5"
 	@echo "... image6"
+	@echo "... src/camera/camera.o"
+	@echo "... src/camera/camera.i"
+	@echo "... src/camera/camera.s"
+	@echo "... src/filter/filter1.o"
+	@echo "... src/filter/filter1.i"
+	@echo "... src/filter/filter1.s"
+	@echo "... src/filter/filter2.o"
+	@echo "... src/filter/filter2.i"
+	@echo "... src/filter/filter2.s"
+	@echo "... src/filter/filter3.o"
+	@echo "... src/filter/filter3.i"
+	@echo "... src/filter/filter3.s"
+	@echo "... src/filter/filter4.o"
+	@echo "... src/filter/filter4.i"
+	@echo "... src/filter/filter4.s"
+	@echo "... src/filter/filter5.o"
+	@echo "... src/filter/filter5.i"
+	@echo "... src/filter/filter5.s"
 	@echo "... src/image/image1.o"
 	@echo "... src/image/image1.i"
 	@echo "... src/image/image1.s"

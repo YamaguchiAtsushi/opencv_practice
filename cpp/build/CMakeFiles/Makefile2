@@ -60,13 +60,161 @@ CMAKE_SOURCE_DIR = /home/yamaguchi/opencv_practice/cpp
 CMAKE_BINARY_DIR = /home/yamaguchi/opencv_practice/cpp/build
 
 #=============================================================================
+# Target rules for target CMakeFiles/filter4.dir
+
+# All Build rule for target.
+CMakeFiles/filter4.dir/all:
+	$(MAKE) -f CMakeFiles/filter4.dir/build.make CMakeFiles/filter4.dir/depend
+	$(MAKE) -f CMakeFiles/filter4.dir/build.make CMakeFiles/filter4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yamaguchi/opencv_practice/cpp/build/CMakeFiles --progress-num=9,10 "Built target filter4"
+.PHONY : CMakeFiles/filter4.dir/all
+
+# Include target in all.
+all: CMakeFiles/filter4.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/filter4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yamaguchi/opencv_practice/cpp/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/filter4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yamaguchi/opencv_practice/cpp/build/CMakeFiles 0
+.PHONY : CMakeFiles/filter4.dir/rule
+
+# Convenience name for target.
+filter4: CMakeFiles/filter4.dir/rule
+
+.PHONY : filter4
+
+# clean rule for target.
+CMakeFiles/filter4.dir/clean:
+	$(MAKE) -f CMakeFiles/filter4.dir/build.make CMakeFiles/filter4.dir/clean
+.PHONY : CMakeFiles/filter4.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/filter4.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/filter3.dir
+
+# All Build rule for target.
+CMakeFiles/filter3.dir/all:
+	$(MAKE) -f CMakeFiles/filter3.dir/build.make CMakeFiles/filter3.dir/depend
+	$(MAKE) -f CMakeFiles/filter3.dir/build.make CMakeFiles/filter3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yamaguchi/opencv_practice/cpp/build/CMakeFiles --progress-num=7,8 "Built target filter3"
+.PHONY : CMakeFiles/filter3.dir/all
+
+# Include target in all.
+all: CMakeFiles/filter3.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/filter3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yamaguchi/opencv_practice/cpp/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/filter3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yamaguchi/opencv_practice/cpp/build/CMakeFiles 0
+.PHONY : CMakeFiles/filter3.dir/rule
+
+# Convenience name for target.
+filter3: CMakeFiles/filter3.dir/rule
+
+.PHONY : filter3
+
+# clean rule for target.
+CMakeFiles/filter3.dir/clean:
+	$(MAKE) -f CMakeFiles/filter3.dir/build.make CMakeFiles/filter3.dir/clean
+.PHONY : CMakeFiles/filter3.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/filter3.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/filter2.dir
+
+# All Build rule for target.
+CMakeFiles/filter2.dir/all:
+	$(MAKE) -f CMakeFiles/filter2.dir/build.make CMakeFiles/filter2.dir/depend
+	$(MAKE) -f CMakeFiles/filter2.dir/build.make CMakeFiles/filter2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yamaguchi/opencv_practice/cpp/build/CMakeFiles --progress-num=5,6 "Built target filter2"
+.PHONY : CMakeFiles/filter2.dir/all
+
+# Include target in all.
+all: CMakeFiles/filter2.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/filter2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yamaguchi/opencv_practice/cpp/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/filter2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yamaguchi/opencv_practice/cpp/build/CMakeFiles 0
+.PHONY : CMakeFiles/filter2.dir/rule
+
+# Convenience name for target.
+filter2: CMakeFiles/filter2.dir/rule
+
+.PHONY : filter2
+
+# clean rule for target.
+CMakeFiles/filter2.dir/clean:
+	$(MAKE) -f CMakeFiles/filter2.dir/build.make CMakeFiles/filter2.dir/clean
+.PHONY : CMakeFiles/filter2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/filter2.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/filter1.dir
+
+# All Build rule for target.
+CMakeFiles/filter1.dir/all:
+	$(MAKE) -f CMakeFiles/filter1.dir/build.make CMakeFiles/filter1.dir/depend
+	$(MAKE) -f CMakeFiles/filter1.dir/build.make CMakeFiles/filter1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yamaguchi/opencv_practice/cpp/build/CMakeFiles --progress-num=3,4 "Built target filter1"
+.PHONY : CMakeFiles/filter1.dir/all
+
+# Include target in all.
+all: CMakeFiles/filter1.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/filter1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yamaguchi/opencv_practice/cpp/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/filter1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yamaguchi/opencv_practice/cpp/build/CMakeFiles 0
+.PHONY : CMakeFiles/filter1.dir/rule
+
+# Convenience name for target.
+filter1: CMakeFiles/filter1.dir/rule
+
+.PHONY : filter1
+
+# clean rule for target.
+CMakeFiles/filter1.dir/clean:
+	$(MAKE) -f CMakeFiles/filter1.dir/build.make CMakeFiles/filter1.dir/clean
+.PHONY : CMakeFiles/filter1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/filter1.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/image2.dir
 
 # All Build rule for target.
 CMakeFiles/image2.dir/all:
 	$(MAKE) -f CMakeFiles/image2.dir/build.make CMakeFiles/image2.dir/depend
 	$(MAKE) -f CMakeFiles/image2.dir/build.make CMakeFiles/image2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yamaguchi/opencv_practice/cpp/build/CMakeFiles --progress-num=3,4 "Built target image2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yamaguchi/opencv_practice/cpp/build/CMakeFiles --progress-num=15,16 "Built target image2"
 .PHONY : CMakeFiles/image2.dir/all
 
 # Include target in all.
@@ -103,7 +251,7 @@ clean: CMakeFiles/image2.dir/clean
 CMakeFiles/image3.dir/all:
 	$(MAKE) -f CMakeFiles/image3.dir/build.make CMakeFiles/image3.dir/depend
 	$(MAKE) -f CMakeFiles/image3.dir/build.make CMakeFiles/image3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yamaguchi/opencv_practice/cpp/build/CMakeFiles --progress-num=5,6 "Built target image3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yamaguchi/opencv_practice/cpp/build/CMakeFiles --progress-num=17,18 "Built target image3"
 .PHONY : CMakeFiles/image3.dir/all
 
 # Include target in all.
@@ -140,7 +288,7 @@ clean: CMakeFiles/image3.dir/clean
 CMakeFiles/image1.dir/all:
 	$(MAKE) -f CMakeFiles/image1.dir/build.make CMakeFiles/image1.dir/depend
 	$(MAKE) -f CMakeFiles/image1.dir/build.make CMakeFiles/image1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yamaguchi/opencv_practice/cpp/build/CMakeFiles --progress-num=1,2 "Built target image1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yamaguchi/opencv_practice/cpp/build/CMakeFiles --progress-num=13,14 "Built target image1"
 .PHONY : CMakeFiles/image1.dir/all
 
 # Include target in all.
@@ -171,13 +319,50 @@ clean: CMakeFiles/image1.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/filter5.dir
+
+# All Build rule for target.
+CMakeFiles/filter5.dir/all:
+	$(MAKE) -f CMakeFiles/filter5.dir/build.make CMakeFiles/filter5.dir/depend
+	$(MAKE) -f CMakeFiles/filter5.dir/build.make CMakeFiles/filter5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yamaguchi/opencv_practice/cpp/build/CMakeFiles --progress-num=11,12 "Built target filter5"
+.PHONY : CMakeFiles/filter5.dir/all
+
+# Include target in all.
+all: CMakeFiles/filter5.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/filter5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yamaguchi/opencv_practice/cpp/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/filter5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yamaguchi/opencv_practice/cpp/build/CMakeFiles 0
+.PHONY : CMakeFiles/filter5.dir/rule
+
+# Convenience name for target.
+filter5: CMakeFiles/filter5.dir/rule
+
+.PHONY : filter5
+
+# clean rule for target.
+CMakeFiles/filter5.dir/clean:
+	$(MAKE) -f CMakeFiles/filter5.dir/build.make CMakeFiles/filter5.dir/clean
+.PHONY : CMakeFiles/filter5.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/filter5.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/image4.dir
 
 # All Build rule for target.
 CMakeFiles/image4.dir/all:
 	$(MAKE) -f CMakeFiles/image4.dir/build.make CMakeFiles/image4.dir/depend
 	$(MAKE) -f CMakeFiles/image4.dir/build.make CMakeFiles/image4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yamaguchi/opencv_practice/cpp/build/CMakeFiles --progress-num=7,8 "Built target image4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yamaguchi/opencv_practice/cpp/build/CMakeFiles --progress-num=19,20 "Built target image4"
 .PHONY : CMakeFiles/image4.dir/all
 
 # Include target in all.
@@ -208,13 +393,50 @@ clean: CMakeFiles/image4.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/camera.dir
+
+# All Build rule for target.
+CMakeFiles/camera.dir/all:
+	$(MAKE) -f CMakeFiles/camera.dir/build.make CMakeFiles/camera.dir/depend
+	$(MAKE) -f CMakeFiles/camera.dir/build.make CMakeFiles/camera.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yamaguchi/opencv_practice/cpp/build/CMakeFiles --progress-num=1,2 "Built target camera"
+.PHONY : CMakeFiles/camera.dir/all
+
+# Include target in all.
+all: CMakeFiles/camera.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/camera.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yamaguchi/opencv_practice/cpp/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/camera.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yamaguchi/opencv_practice/cpp/build/CMakeFiles 0
+.PHONY : CMakeFiles/camera.dir/rule
+
+# Convenience name for target.
+camera: CMakeFiles/camera.dir/rule
+
+.PHONY : camera
+
+# clean rule for target.
+CMakeFiles/camera.dir/clean:
+	$(MAKE) -f CMakeFiles/camera.dir/build.make CMakeFiles/camera.dir/clean
+.PHONY : CMakeFiles/camera.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/camera.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/image5.dir
 
 # All Build rule for target.
 CMakeFiles/image5.dir/all:
 	$(MAKE) -f CMakeFiles/image5.dir/build.make CMakeFiles/image5.dir/depend
 	$(MAKE) -f CMakeFiles/image5.dir/build.make CMakeFiles/image5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yamaguchi/opencv_practice/cpp/build/CMakeFiles --progress-num=9,10 "Built target image5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yamaguchi/opencv_practice/cpp/build/CMakeFiles --progress-num=21,22 "Built target image5"
 .PHONY : CMakeFiles/image5.dir/all
 
 # Include target in all.
@@ -251,7 +473,7 @@ clean: CMakeFiles/image5.dir/clean
 CMakeFiles/image6.dir/all:
 	$(MAKE) -f CMakeFiles/image6.dir/build.make CMakeFiles/image6.dir/depend
 	$(MAKE) -f CMakeFiles/image6.dir/build.make CMakeFiles/image6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yamaguchi/opencv_practice/cpp/build/CMakeFiles --progress-num=11,12 "Built target image6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yamaguchi/opencv_practice/cpp/build/CMakeFiles --progress-num=23,24 "Built target image6"
 .PHONY : CMakeFiles/image6.dir/all
 
 # Include target in all.
